@@ -1,100 +1,73 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Flutter Course Projects</title>
-</head>
-<body>
-    <h1 style="text-align: center;">📱 Flutter Course Projects</h1>
-    <p style="text-align: center;">A collection of projects created during my Flutter development learning journey.</p>
+# 📱 Flutter Course Projects
 
-    <hr>
+A collection of projects created during my Flutter development learning journey.
 
-    <h2>🌟 Projects</h2>
-    <ol>
-        <li>
-            <h3>Todo App</h3>
-            <p>A simple and intuitive todo list application to manage your daily tasks efficiently.</p>
-            <ul>
-                <li>Features: Add, update, delete, and mark tasks as completed.</li>
-                <li>Concepts: State management, ListView, and user input handling.</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Weather App</h3>
-            <p>An app that displays the current weather conditions for any location using an API.</p>
-            <ul>
-                <li>Features: Location-based weather updates and search functionality.</li>
-                <li>Concepts: API integration, async programming, and JSON parsing.</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Quiz App</h3>
-            <p>A fun quiz application to test your general knowledge with interactive questions.</p>
-            <ul>
-                <li>Features: Multiple-choice questions with real-time scoring.</li>
-                <li>Concepts: Stateful widgets, navigation, and dynamic data rendering.</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Expense Tracker</h3>
-            <p>A financial tracker to monitor your daily expenses and visualize spending trends.</p>
-            <ul>
-                <li>Features: Add expenses, view summary, and chart visualizations.</li>
-                <li>Concepts: Data persistence, custom widgets, and charting libraries.</li>
-            </ul>
-        </li>
-        <li>
-            <h3>eCommerce App</h3>
-            <p>An app showcasing an online store with a product listing, cart, and checkout system.</p>
-            <ul>
-                <li>Features: Product browsing, cart management, and dummy checkout.</li>
-                <li>Concepts: Multi-screen navigation, provider for state management.</li>
-            </ul>
-        </li>
-    </ol>
+---
 
-    <hr>
+## 🌟 Projects
 
-    <h2>🛠️ Tech Stack</h2>
-    <ul>
-        <li>Flutter</li>
-        <li>Dart</li>
-        <li>Third-party packages (e.g., HTTP, Provider, SQFLite)</li>
-    </ul>
+1. **Todo App**  
+   A simple and intuitive todo list application to manage your daily tasks efficiently.  
+   - **Features**: Add, update, delete, and mark tasks as completed.  
+   - **Concepts**: State management, ListView, and user input handling.
 
-    <hr>
+2. **Weather App**  
+   An app that displays the current weather conditions for any location using an API.  
+   - **Features**: Location-based weather updates and search functionality.  
+   - **Concepts**: API integration, async programming, and JSON parsing.
 
-    <h2>📚 Learning Outcomes</h2>
-    <ul>
-        <li>Building responsive and scalable UIs with Flutter widgets.</li>
-        <li>State management and efficient handling of app states.</li>
-        <li>API integration and working with asynchronous operations.</li>
-        <li>Navigation and multi-screen app structure.</li>
-    </ul>
+3. **Quiz App**  
+   A fun quiz application to test your general knowledge with interactive questions.  
+   - **Features**: Multiple-choice questions with real-time scoring.  
+   - **Concepts**: Stateful widgets, navigation, and dynamic data rendering.
 
-    <hr>
+4. **Expense Tracker**  
+   A financial tracker to monitor your daily expenses and visualize spending trends.  
+   - **Features**: Add expenses, view summary, and chart visualizations.  
+   - **Concepts**: Data persistence, custom widgets, and charting libraries.
 
-    <h2>📁 Repository Structure</h2>
-    <ul>
-        <li><strong>/project-name/</strong>: Each project resides in its own folder.</li>
-        <li><strong>/assets/</strong>: Images and other assets used in the projects.</li>
-        <li><strong>/lib/</strong>: Core Flutter files for each project.</li>
-    </ul>
+5. **eCommerce App**  
+   An app showcasing an online store with a product listing, cart, and checkout system.  
+   - **Features**: Product browsing, cart management, and dummy checkout.  
+   - **Concepts**: Multi-screen navigation, provider for state management.
 
-    <hr>
+---
 
-    <h2>🤝 Contributing</h2>
-    <p>Feel free to fork this repository, explore the projects, and make improvements. Contributions are always welcome!</p>
+## 🛠️ Tech Stack
 
-    <hr>
+- Flutter
+- Dart
+- Third-party packages (e.g., HTTP, Provider, SQFLite)
 
-    <h2>📬 Contact</h2>
-    <p>If you have any questions or suggestions, feel free to reach out to me via <a href="mailto:your_email@example.com">email</a>.</p>
+---
 
-    <hr>
+## 📚 Learning Outcomes
 
-    <footer style="text-align: center;">
-        <p>⭐ If you like this repository, don't forget to give it a star!</p>
-    </footer>
-</body>
-</html>
+- Building responsive and scalable UIs with Flutter widgets.
+- State management and efficient handling of app states.
+- API integration and working with asynchronous operations.
+- Navigation and multi-screen app structure.
+
+---
+
+## 📁 Repository Structure
+
+- `/project-name/`: Each project resides in its own folder.
+- `/assets/`: Images and other assets used in the projects.
+- `/lib/`: Core Flutter files for each project.
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository, explore the projects, and make improvements. Contributions are always welcome!
+
+---
+
+## 📬 Contact
+
+If you have any questions or suggestions, feel free to reach out to me via [email](mailto:your_email@example.com).
+
+---
+
+⭐ **If you like this repository, don't forget to give it a star!**
