@@ -37,7 +37,7 @@ flutter pub get
 flutter run
 ---
 
-### 💡Key Learnings
+### 3.💡Key Learnings
 
 This project showcases:
 State management with setState.
@@ -45,11 +45,10 @@ Use of Expanded and TextButton widgets for layout and interaction.
 Dynamic image rendering using string interpolation with Image.asset.
 ---
 
-### 📬 Contact
+### 4. 📬 Contact
 Feel free to reach out if you have any questions or feedback!
-
 Aryan Sharma
-📧 Email: aryan.sharma555@example.com
+📧 Email: sharmaaryan55555@gmail.com
 🌐 GitHub: Sharmaaryan555
 ---
 
