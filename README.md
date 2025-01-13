@@ -12,7 +12,7 @@ Dicee is a simple yet fun Flutter app that simulates rolling two dice. With a si
 ---
 
 ## 📸 Preview
-<img src="images/dice_preview.png" alt="Dicee App Preview" width="300" />
+<img src="images/dice1.png" alt="Dicee App Preview" width="300" />
 
 ---
 
