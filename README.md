@@ -1,95 +1,71 @@
-# 📱 Flutter Course Projects
+# 🎲 Dicee - Flutter Dice Rolling App
 
-A collection of projects created during my Flutter development learning journey.
-
----
-
-## 🌟 Projects  
-
-1. **Dicee App 🎲**  
-   A fun dice-rolling app that generates random dice rolls for games or decision-making.  
-   - **Features**: Random dice number generation.  
-   - **Concepts**: Stateless and Stateful widgets, hot reloading, and Dart basics.  
-
-2. **Xylophone App 🎶**  
-   A simple music app that plays unique sounds when you press each button.  
-   - **Features**: Interactive sound playing.  
-   - **Concepts**: Flutter audio packages, widget tree, and reusable widgets.  
-
-3. **Quizzler App ❓**  
-   A quiz app with true/false questions and score tracking.  
-   - **Features**: Displays questions, handles user answers, and shows scores.  
-   - **Concepts**: Stateful widgets, custom widgets, and List management.  
-
-4. **BMI Calculator 🏋️**  
-   A beautifully designed BMI calculator app with sliders for weight and height.  
-   - **Features**: Dynamic UI updates based on user input.  
-   - **Concepts**: Navigation, custom themes, and card widgets.  
-
-5. **Clima App 🌦️**  
-   A weather app that fetches live weather data for any location.  
-   - **Features**: Location-based weather updates, search functionality.  
-   - **Concepts**: API integration, asynchronous programming, and JSON parsing.  
-
-6. **Flash Chat 💬**  
-   A real-time messaging app using Firebase as the backend.  
-   - **Features**: User authentication, real-time chat updates.  
-   - **Concepts**: Firebase setup, stream builders, and material design.  
-
-7. **Todoey App ✅**  
-   A simple yet powerful to-do app to keep track of tasks.  
-   - **Features**: Add, update, and delete tasks with persistence.  
-   - **Concepts**: State management using Provider, ListView, and task models.  
-
-8. **Bitcoin Ticker 💰**  
-   A cryptocurrency tracker that displays the exchange rates of Bitcoin.  
-   - **Features**: Real-time exchange rates for multiple currencies.  
-   - **Concepts**: HTTP requests, dropdown menus, and JSON handling.  
+Dicee is a simple yet fun Flutter app that simulates rolling two dice. With a single tap, you can roll the dice and get random results every time. Perfect for learning Flutter state management and exploring widgets like `TextButton`, `Image.asset`, and `Expanded`.
 
 ---
 
-## 🛠️ Tech Stack  
-
-- **Flutter**: Cross-platform app development framework.  
-- **Dart**: Programming language for building Flutter apps.  
-- **Firebase**: Backend for authentication and real-time database.  
-- **APIs**: Fetching live data (e.g., OpenWeatherMap, CoinAPI).  
+## 🚀 Features
+- Roll two dice with a single tap.
+- Random dice face generation using Dart's `Random` class.
+- Interactive and responsive UI built with Flutter.
 
 ---
 
-## 📚 Learning Outcomes  
-
-- Mastering **Flutter widgets** for responsive UI.  
-- Implementing **state management** techniques (e.g., Provider).  
-- Integrating **Firebase** for authentication and database.  
-- Working with **RESTful APIs** for dynamic data handling.  
-- Designing beautiful and user-friendly app interfaces.  
+## 📸 Preview
+<img src="images/dice_preview.png" alt="Dicee App Preview" width="300" />
 
 ---
 
-## 📁 Repository Structure  
-
-- `/dicee_app/`: Dice rolling app.  
-- `/xylophone_app/`: Music-playing app.  
-- `/quizzler_app/`: True/False quiz app.  
-- `/bmi_calculator/`: BMI calculation app.  
-- `/clima_app/`: Weather app with live data.  
-- `/flash_chat/`: Real-time messaging app.  
-- `/todoey/`: Task management app.  
-- `/bitcoin_ticker/`: Cryptocurrency tracker app.  
+## 🛠️ Technologies Used
+- **Framework:** Flutter
+- **Language:** Dart
+- **Widgets:** `MaterialApp`, `Scaffold`, `AppBar`, `Row`, `Expanded`, `TextButton`, `Image.asset`.
 
 ---
 
-## 🤝 Contributing  
-
-Feel free to fork this repository, explore the projects, and contribute with your own ideas and improvements!  
-
----
-
-## 📬 Contact  
-
-If you have any questions or suggestions, reach out to me via [email](mailto:Sharmaaryan55555@gmail.com).  
+## 📝 How It Works
+1. Each dice face is represented by an image stored in the `images` folder.
+2. On tapping either dice, a random number (1–6) is generated for both dice using the `Random` class.
+3. The UI updates dynamically with the new dice faces using Flutter's `setState`.
 
 ---
 
-⭐ **If you enjoyed these projects, don't forget to give the repository a star!** 
+## 📂 File Structure
+📂 dicee_app ├── 📁 images │ ├── dice1.png │ ├── dice2.png │ ├── dice3.png │ ├── dice4.png │ ├── dice5.png │ └── dice6.png ├── lib │ └── main.dart └── pubspec.yaml
+
+
+---
+
+## 🛠️ Setup and Run
+
+### 1. Prerequisites
+- Install [Flutter](https://flutter.dev/docs/get-started/install).
+- Ensure you have a code editor like VSCode or Android Studio.
+- Add the dice images (`dice1.png`, `dice2.png`, etc.) to the `images` folder.
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com/Sharmaaryan555/flutterWeb.git
+cd flutterWeb
+3. Install Dependencies
+bash
+Copy code
+flutter pub get
+4. Run the App
+Connect a device or start an emulator, then run:
+
+bash
+Copy code
+flutter run
+💡 Key Learnings
+This project showcases:
+
+State management with setState.
+Use of Expanded and TextButton widgets for layout and interaction.
+Dynamic image rendering using string interpolation with Image.asset.
+#📬 Contact
+Feel free to reach out if you have any questions or feedback!
+Aryan Sharma
+📧 Email: aryan.sharma555@example.com
+🌐 GitHub: Sharmaaryan555
+
