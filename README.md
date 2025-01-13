@@ -17,22 +17,9 @@ Dicee is a simple yet fun Flutter app that simulates rolling two dice. With a si
 ---
 
 ## 🛠️ Technologies Used
-- **Framework:** Flutter
-- **Language:** Dart
+- **Framework:** Flutter  
+- **Language:** Dart  
 - **Widgets:** `MaterialApp`, `Scaffold`, `AppBar`, `Row`, `Expanded`, `TextButton`, `Image.asset`.
-
----
-
-## 📝 How It Works
-1. Each dice face is represented by an image stored in the `images` folder.
-2. On tapping either dice, a random number (1–6) is generated for both dice using the `Random` class.
-3. The UI updates dynamically with the new dice faces using Flutter's `setState`.
-
----
-
-## 📂 File Structure
-📂 dicee_app ├── 📁 images │ ├── dice1.png │ ├── dice2.png │ ├── dice3.png │ ├── dice4.png │ ├── dice5.png │ └── dice6.png ├── lib │ └── main.dart └── pubspec.yaml
-
 
 ---
 
@@ -44,28 +31,25 @@ Dicee is a simple yet fun Flutter app that simulates rolling two dice. With a si
 - Add the dice images (`dice1.png`, `dice2.png`, etc.) to the `images` folder.
 
 ### 2. Clone the Repository
-```bash
 git clone https://github.com/Sharmaaryan555/flutterWeb.git
 cd flutterWeb
-3. Install Dependencies
-bash
-Copy code
 flutter pub get
-4. Run the App
-Connect a device or start an emulator, then run:
-
-bash
-Copy code
 flutter run
-💡 Key Learnings
-This project showcases:
+---
 
+### 💡Key Learnings
+
+This project showcases:
 State management with setState.
 Use of Expanded and TextButton widgets for layout and interaction.
 Dynamic image rendering using string interpolation with Image.asset.
-#📬 Contact
+---
+
+### 📬 Contact
 Feel free to reach out if you have any questions or feedback!
+
 Aryan Sharma
 📧 Email: aryan.sharma555@example.com
 🌐 GitHub: Sharmaaryan555
+---
 
