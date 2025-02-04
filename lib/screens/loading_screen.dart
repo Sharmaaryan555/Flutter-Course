@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:clima_flutter/services/location.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
-const apiKey = '2dfda73c67a1090d26276917259f4b0e';
+const apiKey = '';
 
 class LoadingScreen extends StatefulWidget {
   @override
