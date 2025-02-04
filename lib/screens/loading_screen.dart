@@ -1,5 +1,10 @@
+import 'package:clima_flutter/screens/location_screen.dart';
+import 'package:clima_flutter/services/networking.dart';
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
+import 'package:clima_flutter/services/location.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+
+const apiKey = '2dfda73c67a1090d26276917259f4b0e';
 
 class LoadingScreen extends StatefulWidget {
   @override
@@ -8,33 +13,40 @@ class LoadingScreen extends StatefulWidget {
 
 class _LoadingScreenState extends State<LoadingScreen> {
 
-  Future<void> getLocation() async {
+  @override
+  void initState() {
+    super.initState();
 
-    LocationPermission permission;
-    permission = await Geolocator.requestPermission();
+    getLocationData();
+  }
 
-    final LocationSettings locationSettings = LocationSettings(
-      accuracy: LocationAccuracy.low,
-      distanceFilter: 100,
+  void getLocationData() async {
+    Location location = Location();
+
+    await location.getCurrentLocation();
+
+    NetworkHelper networkHelper = NetworkHelper(
+        'https://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=$apiKey&units=metric');
+
+    var weatherData = await networkHelper.getData();
+
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => LocationScreen(
+          locationWeather: weatherData,
+        ),
+      ),
     );
-
-    Position position = await Geolocator.getCurrentPosition(locationSettings: locationSettings);
-    print(position);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: ElevatedButton(
-          style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.blue,
-          ),
-          onPressed: () {
-            //Get the current location
-            getLocation();
-          },
-          child: Text('Get Location'),
+        child: SpinKitDoubleBounce(
+          color: Colors.white,
+          size: 100.0,
         ),
       ),
     );
