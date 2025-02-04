@@ -1,4 +1,16 @@
+import 'package:clima_flutter/services/networking.dart';
+
+const apiKey = '2dfda73c67a1090d26276917259f4b0e';
+const openWeatherMapUrl = 'https://api.openweathermap.org/data/2.5/weather';
+
 class WeatherModel {
+  Future<dynamic> getCityWeather(String cityName) async {
+    var url = '$openWeatherMapUrl?q=$cityName&appid=$apiKey&units=metric';
+    NetworkHelper networkHelper = NetworkHelper(url);
+    var weatherData = await networkHelper.getData();
+    return weatherData;
+  }
+
   String getWeatherIcon(int condition) {
     if (condition < 300) {
       return '🌩';
